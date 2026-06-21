@@ -1,0 +1,7 @@
+interface:
+  display_name: "Agentify B2B Market Research"
+  short_description: "Turn a 1688 or Alibaba supplier into a B2B export competitor, ICP, outbound, and inbound brief"
+  default_prompt: "Use $agentify-b2b-market-research to analyze this 1688 or Alibaba supplier and produce the top 5 competitors, ICP, outbound plan, and inbound SEO/GEO plus social plan."
+
+policy:
+  allow_implicit_invocation: true
