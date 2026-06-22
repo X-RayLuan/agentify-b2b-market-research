@@ -76,13 +76,29 @@ Pick competitors that overlap on:
 - solution depth
 - channel model
 
-Use the following buckets to search:
+Use the following buckets to search. Cover EVERY bucket — an empty bucket is a coverage gap, not a "no competitors here":
 
 - direct manufacturer competitors
 - OEM/ODM smart-solution suppliers
 - independent-site exporters
 - Amazon / B2B marketplace-visible players
 - hospitality / project / distributor-oriented suppliers
+- premium / category-benchmark brands (often OFF marketplace, higher price tier, sell via design-spec or authorized dealers — e.g. the "ceiling" brand of the category)
+
+#### Do not miss benchmark competitors (anti-blind-spot rule)
+
+A single-axis search ("same product + same price band + same channel") will systematically MISS the premium/benchmark players, because they are not on Alibaba/1688, their price band is filtered out, and they rank for `brand / hospitality / designer` keywords, not `manufacturer / OEM / wholesale`. Run all three nets:
+
+1. **Tier sweep** — always run one query set per price/positioning tier, never just one:
+   - premium / ceiling: `best <product> brands`, `top <product> companies`, `luxury <use-case> <product> brand`, `designer-specified <product>`
+   - same-pool OEM/ODM peers: `<product> OEM/ODM manufacturer china`
+   - commodity / low-price: `cheap <product> wholesale`
+2. **Demand-side reverse search** — find competitors by who the ICP actually buys, not by supply-side keywords: `<ICP> preferred <product> supplier`, `<flagship hotel/brand> <product> brand`, `which <product> brand do designers/hotels specify`. Premium benchmarks only surface from the demand side.
+3. **Seed snowball** — from any found competitor, mine its `compare / vs / alternatives` pages, industry "Top 10" listicles, awards, and `as seen in` / customer-logo walls to reach the next batch.
+
+**Completeness check (before locking the list):** for each price tier AND each buyer type, name the leader. If a tier is empty, you missed someone — go back.
+
+**Principle — discover then classify, never silently omit:** the goal is NOT to force a benchmark brand into the top 5. Discover it, then consciously classify it as `direct top-5` vs `benchmark / ceiling (study, don't head-to-head)`. A benchmark consciously marked as such is correct; a benchmark absent from the report is a process bug.
 
 For each competitor, capture:
 
@@ -157,6 +173,18 @@ Outbound should cover at least:
 - distributor / procurement portal applications
 - trade-show or directory follow-up if relevant
 
+#### How to find ICP contact details (required)
+
+A plan that says "email procurement managers" without saying HOW to get them is not actionable. Always specify the sourcing channels, mapped to ICP tier. Use public sources only — never invent emails, names, or LinkedIn profiles; mark anything unconfirmed `Not publicly verified`.
+
+- **Customs / import data** (the #1 export lever): find who actually imports the product. Tools: Panjiva, ImportGenius, ImportYeti (US, free), 52WMB, Tradesns. Search by HS code + product keyword, export the importer list, then enrich decision-makers via the company site / LinkedIn. Best for distributors / importers.
+- **LinkedIn Sales Navigator**: lock the person by title + industry — `Procurement / FF&E / Purchasing` filtered to `Hospitality / Real Estate / Building Materials`. High hit rate in the Middle East / SEA.
+- **Vendor / supplier portals**: FF&E procurement firms and fit-out main contractors usually have a `Become a Vendor / Supplier Registration` page — the cleanest official channel, highest reply rate.
+- **Trade shows + directories**: exhibitor + visitor lists (Canton Fair, Big5 Dubai, KBIS US, ISH Germany) are full of buyers; hospitality-supply distributor directories double as channel entry points.
+- **Company site + business registries**: once a target account is known, mine the `Contact` page and registries (e.g.企查查 / 天眼查 for China-side, public filings overseas) for the procurement / project contact.
+
+**Demand-aggregator targeting (core strategy):** for project ICPs, do NOT chase end buyers one by one. Target the demand aggregators — FF&E procurement companies and fit-out main contractors — each holds the spec decision for dozens of projects. Getting onto their approved-vendor list = repeat orders. Output a starter account list with: account, vendor entry URL, public email/phone, key contact + LinkedIn (or `Not publicly verified`), and a one-line first-touch angle.
+
 For each ICP tier, specify:
 
 - what they are buying
@@ -181,6 +209,12 @@ Audit the supplier and top competitors across the public surfaces you can verify
 Output:
 
 - current gap
+- **primary social channels + per-channel play (required)** — name the channels that matter for THIS supplier's B2B buyers and give each a positioning + concrete tactic + priority. Default channel set for export B2B (adapt per case):
+  - **LinkedIn** (usually P1): the B2B battleground where procurement / project decision-makers find suppliers. Play: company page (name consistent with site + marketplace) → post project cases + certifications + factory proof; sales reps do ICP outreach from personal profiles; employees amplify.
+  - **Instagram** (P1 for design/beauty buyers): visual proof. Play: real-scene Reels (hotel bathroom, salon installs), before/after, product detail, consistent brand visuals.
+  - **YouTube** (P2): long-form trust + SEO/GEO asset. Play: factory walk-through, QC, anti-fog test, install tutorials; reuse clips to site + LinkedIn.
+  - **Facebook** (P2): distributor / importer + Middle-East reach via B2B groups; product + project posts.
+  - **TikTok** (P3, optional): product seeding for retail/beauty; test traffic before investing.
 - 3 content pillars
 - 10 post angles
 - 3 proof-first assets to create
@@ -235,9 +269,10 @@ Before finalizing, check:
 
 - the supplier snapshot is specific enough that another person could tell what business model this is
 - the top 5 are true competitive alternatives, not random market neighbors
+- competitor coverage: every price tier and buyer type has a named leader; the category benchmark / ceiling brand was discovered and explicitly classified (direct vs benchmark), never silently omitted
 - each ICP tier has buyer roles, trigger, proof need, and likely objection
-- outbound has concrete channels, message angles, and sequence logic
-- inbound covers both social proof and independent-site SEO/GEO
+- outbound has concrete channels, message angles, sequence logic, AND a concrete way to source ICP contact details (not just "email them")
+- inbound names the primary social channels with a per-channel play, and covers both social proof and independent-site SEO/GEO
 - every non-obvious claim has a source URL or is explicitly marked as inference
 - no fake contacts, fake certifications, or fake market shares were introduced
 
