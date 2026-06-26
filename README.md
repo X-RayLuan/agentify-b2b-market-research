@@ -89,3 +89,10 @@ Clone or copy this directory into your OpenClaw skills directory, then reference
 ## Notes
 
 This repository focuses on the reusable skill itself, not on a single fixed company report. ZekSmart is the motivating example, but the workflow is intentionally not locked to one supplier.
+
+## Changelog
+
+### 2026-06-26
+- **Competitors split into two sets** — Top 5 **overseas** (destination-market) AND Top 5 **China-domestic** (1688/Alibaba source peers). Each domestic peer is classified as *already-exporting* (direct threat, e.g. has an Alibaba International / Amazon footprint) vs *domestic-only* (price benchmark), and the supplier's non-price differentiator vs peers must be named. Report template `§2` now has tables `2a`/`2b`.
+- **Storefront-anchor rule** — competitor discovery anchors on the supplier's **real full product line**; never let a downstream product pick narrow the competitor map. For domestic peers, prioritize the supplier's same industrial-cluster factories (e.g. 东阳工艺品) and Alibaba-International-active peers.
+- Designed to be orchestrated by **agentify-export-research** as the front-half (Part A) of an integrated export brief.
