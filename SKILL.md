@@ -75,6 +75,9 @@ A Chinese factory going overseas faces TWO competitor sets, and a report that ma
 
 Produce a **Top 5 for EACH set**, in two separate tables.
 
+> 🧭 **锚点铁律**：竞品发现**锚定供应商的真实店铺在卖的全品类**（storefront = truth anchor），覆盖其整条产品线，**不要被任何下游选品/推品建议缩圈**到单一品类——选品是前瞻的下游步骤，不能反向决定竞品范围。
+> 对 **中国国内竞品**，优先锁定供应商的**同产业带/同集群同行**（如东阳工艺品、白沟箱包），以及**同址 1688 同类厂**——这些比"按单一关键词搜到的某品类专业厂"更贴真实竞争。
+
 #### 3a. Top 5 海外竞品
 
 Pick competitors that overlap on:
