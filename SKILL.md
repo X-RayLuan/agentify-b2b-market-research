@@ -11,7 +11,7 @@ Use this skill to turn a `1688` or `Alibaba` supplier page into an export GTM br
 
 Produce four decision-ready sections:
 
-1. `Top 5 competitors`
+1. `Top 5 competitors` — two sets: 海外 (destination-market) AND 中国国内 (1688/Alibaba source peers)
 2. `ICP`
 3. `Outbound marketing plan`
 4. `Inbound marketing plan`
@@ -66,7 +66,16 @@ For ZekSmart-like cases, explicitly decide whether the business is selling:
 - an OEM/ODM solution
 - a project-delivery package
 
-### 3. Find the top 5 overseas competitors
+### 3. Find competitors — Top 5 海外 (destination-market) AND Top 5 中国国内 (source peers)
+
+A Chinese factory going overseas faces TWO competitor sets, and a report that maps only one is half-blind:
+
+- **海外竞品 (overseas)** = the brands / sellers fighting for the buyer in the destination market — covered by the buckets below.
+- **中国国内竞品 (China domestic)** = your peer factories on 1688 / Alibaba / 阿里国际站 chasing the SAME overseas buyers. They are your real **price / MOQ / capability benchmark at the source**, and any overseas buyer asking for quotes will put you head-to-head against them. Covered in **§3b**.
+
+Produce a **Top 5 for EACH set**, in two separate tables.
+
+#### 3a. Top 5 海外竞品
 
 Pick competitors that overlap on:
 
@@ -121,6 +130,23 @@ Score each competitor on a simple 1 to 5 scale:
 - `content strength`
 - `proof / trust strength`
 - `threat level`
+
+#### 3b. Top 5 中国国内竞品 (source peers)
+
+Find the peer factories competing for the same overseas buyers. Search 1688 / 阿里国际站 / Made-in-China by the supplier's core product + "工厂 / 厂家 / OEM / 定制 / 跨境 / 外贸", and mine `企查查 / 天眼查` for scale signals.
+
+Discover, then classify each on whether it is **already exporting** (has Alibaba International / Amazon / 独立站 footprint = direct overseas threat) vs **pure domestic wholesale** (1688-only = price benchmark, not yet a brand threat).
+
+For each China peer capture:
+
+- 厂名 + 1688 / 阿里国际站 链接
+- 主营品类 + 是否与本供应商重叠
+- 起订量 / 价位带（公开报价线索）
+- 产能 / 认证 / 牌级信号（如 1688 工厂牌级、准时履约率）
+- **跨境能力**：是否已上 Alibaba International / Amazon / 独立站 / TikTok（= 是否已是出海对手）
+- 相对本供应商的差异点（更便宜？图案更多？定制门槛更低？）
+
+**关键判读**：本供应商相对国内同行的差异**通常不在更便宜**（源头价已透明），而在"小单可定制 / 印错包赔 / 出海服务"这类能力。国内竞品表要把这个差异钉死，否则出海只剩价格战。
 
 ### 4. Define the ICP
 
@@ -268,6 +294,7 @@ Read `references/data-sources.md` for suggested search patterns and evidence rul
 Before finalizing, check:
 
 - the supplier snapshot is specific enough that another person could tell what business model this is
+- BOTH competitor sets are present: Top 5 海外 (destination-market) AND Top 5 中国国内 (1688/Alibaba source peers); each China peer is classified as already-exporting (direct threat) vs domestic-only (price benchmark), and the supplier's non-price differentiator vs domestic peers is named
 - the top 5 are true competitive alternatives, not random market neighbors
 - competitor coverage: every price tier and buyer type has a named leader; the category benchmark / ceiling brand was discovered and explicitly classified (direct vs benchmark), never silently omitted
 - each ICP tier has buyer roles, trigger, proof need, and likely objection

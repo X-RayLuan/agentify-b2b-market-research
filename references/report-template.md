@@ -13,7 +13,9 @@
 | Current export clues | |
 | Positioning summary | |
 
-## 2. Top 5 Competitors
+## 2. Top 5 Competitors（海外 + 中国国内，两套）
+
+### 2a. Top 5 海外竞品（destination-market）
 
 | Competitor | Website | Why this is a real competitor | Markets | Content / trust strengths | Threat level | Source |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -22,6 +24,18 @@
 | 3 | | | | | | |
 | 4 | | | | | | |
 | 5 | | | | | | |
+
+### 2b. Top 5 中国国内竞品（source peers · 1688 / 阿里国际站）
+
+| 厂名 | 1688/阿里链接 | 主营品类(是否重叠) | 起订量/价位 | 产能/认证/牌级 | 跨境能力(亚马逊/独立站/已出海?) | 相对本厂差异 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | | | | | | |
+| 2 | | | | | | |
+| 3 | | | | | | |
+| 4 | | | | | | |
+| 5 | | | | | | |
+
+> 判读：本厂相对国内同行的差异通常不在更便宜（源头价透明），而在小单定制/印错包赔/出海服务——把它钉死，否则出海只剩价格战。
 
 ### Benchmark / ceiling brands (discovered, classified as NON-direct)
 
